@@ -1,8 +1,10 @@
 {
-  "generated": "2026-10-06T18:37:28.515926+00:00",
-  "posts_checked_24h": 69,
+  "generated": "2026-10-06T18:47:12.150937+00:00",
+  "posts_checked_24h": 80,
   "active_accounts": [
+    "aarontheloco",
     "boardroom",
+    "brgaming",
     "culturecrave",
     "dexerto",
     "gameinformermagazine",
@@ -23,6 +25,6 @@
     "venturebeat",
     "windowscentral"
   ],
-  "new_posts": 0,
+  "new_posts": 4,
   "demo": false
 }
