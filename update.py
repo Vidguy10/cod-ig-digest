@@ -21,7 +21,7 @@ def classify(text):
         found.append(("Modern Warfare 4", True))
     if re.search(r"\bWarzone\b|\bWARZONE\b", text) or re.search(r"#warzone\b", text, re.I):
         found.append(("Warzone", True))
-    if re.search(r"\bDMZ\b", text) and not re.search(r"korea", text, re.I):
+    if (re.search(r"\bDMZ\b", text) or re.search(r"#dmz\d*\b", text, re.I)) and not re.search(r"korea", text, re.I):
         found.append(("DMZ", True))
     if re.search(r"black\s*ops|\bBO7\b", text, re.I):
         found.append(("Black Ops", False))
@@ -32,7 +32,10 @@ def classify(text):
         found.append(("Call of Duty", False))
     if not found:
         return None, False
-    return found[0][0], any(p for _, p in found)
+    names = [n for n, _ in found]
+    if len(names) > 1 and "Call of Duty" in names:
+        names.remove("Call of Duty")
+    return " · ".join(names[:3]), any(p for _, p in found)
 
 def excerpt(caption, limit=220):
     c = re.sub(r"\s+", " ", caption or "").strip()
