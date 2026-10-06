@@ -37,6 +37,12 @@ def classify(text):
         names.remove("Call of Duty")
     return " · ".join(names[:3]), any(p for _, p in found)
 
+def is_sponsored(it):
+    if it.get("paidPartnership") or it.get("isSponsored") or it.get("sponsors"):
+        return True
+    cap = it.get("caption") or ""
+    return bool(re.search(r"^\s*AD\b", cap) or re.search(r"#ad\b|#sponsored\b|#paidpartnership\b|\bpaid partnership\b", cap, re.I))
+
 def excerpt(caption, limit=220):
     c = re.sub(r"\s+", " ", caption or "").strip()
     c = re.sub(r"\s*(head to the )?link in (the )?(bio|comments)( for (more|our [^.]*))?\.?", "", c, flags=re.I).strip()
@@ -105,6 +111,7 @@ def main():
             "title": title,
             "priority": pri,
             "summary": excerpt(it.get("caption")),
+            "sponsored": is_sponsored(it),
         }
 
     cutoff = now - timedelta(days=30)

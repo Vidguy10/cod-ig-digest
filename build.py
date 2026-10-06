@@ -44,7 +44,7 @@ def card(p):
   <div class="embed"><iframe src="https://www.instagram.com/p/{code}/embed/" loading="lazy" scrolling="no" allowtransparency="true" title="Instagram post by @{esc(p['handle'])}"></iframe></div>
   <div class="body">
     <div class="who"><span class="outlet">{esc(p['outlet'])}</span> <span class="handle">@{esc(p['handle'])}</span></div>
-    <div><span class="{badge_cls}">{esc(p.get('title') or 'Call of Duty')}</span></div>
+    <div><span class="{badge_cls}">{esc(p.get('title') or 'Call of Duty')}</span>{' <span class="badge spon">Sponsored</span>' if p.get('sponsored') else ''}</div>
     <p class="summary">{esc(p.get('summary'))}</p>
     <div class="meta">{p.get('likes', 0):,} likes · {p.get('comments', 0):,} comments · {TYPE_NAMES.get(p.get('type'), esc(p.get('type')))} · {fmt_time(posted)}</div>
     <a class="view" href="{esc(p['url'])}" target="_blank" rel="noopener">View on Instagram</a>
@@ -135,6 +135,7 @@ body.only-pri .day[data-pri="0"] .empty{{display:block}}
 .embed iframe{{width:100%;max-width:330px;height:420px;border:0;border-radius:6px;background:var(--bg);display:block}}
 .who .outlet{{font-weight:650;font-size:16px}} .who .handle{{color:var(--mut)}}
 .badge{{display:inline-block;font-size:12px;padding:2px 8px;border-radius:4px;background:var(--bg);border:1px solid var(--line);margin:6px 0 2px}}
+.badge.spon{{background:transparent;border-style:dashed;color:var(--mut);margin-left:4px}}
 .badge.pri{{background:var(--pri-bg);border-color:var(--pri);color:var(--pri);font-weight:600}}
 .summary{{margin:8px 0}}
 .meta{{color:var(--mut);font-size:13px}}
@@ -158,7 +159,7 @@ footer{{margin-top:40px;color:var(--mut);font-size:13px;border-top:1px solid var
 </div>
 {sections}
 <footer>
-  <p>Priority = posts mentioning Modern Warfare 4, Warzone or DMZ. Posts are matched on caption text and hashtags, so posts that only show the game visually may be missed.</p>
+  <p>Priority = posts mentioning Modern Warfare 4, Warzone or DMZ. Sponsored = the post is marked as a paid partnership or tagged #ad. Posts are matched on caption text and hashtags, so posts that only show the game visually may be missed.</p>
   <p>Last run checked {checked} posts. Accounts with posts in the last 24 hours: {tracked}. Quiet accounts: {quiet}.</p>
 </footer>
 </div>
