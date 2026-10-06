@@ -19,14 +19,14 @@ concurrency:
 jobs:
   update:
     runs-on: ubuntu-latest
+    env:
+      APIFY_TOKEN: ${{ secrets.APIFY_TOKEN }}
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
       - name: Pull latest Apify run and rebuild page
-        env:
-          APIFY_TOKEN: ${{ secrets.APIFY_TOKEN }}
         run: python update.py
       - name: Publish
         run: |
