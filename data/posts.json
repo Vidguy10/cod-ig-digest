@@ -1,0 +1,54 @@
+[
+  {
+    "url": "https://www.instagram.com/p/DeKMQmGFxfj/",
+    "shortcode": "DeKMQmGFxfj",
+    "outlet": "IGN",
+    "handle": "igndotcom",
+    "likes": 6199,
+    "comments": 499,
+    "type": "Image",
+    "posted": "2026-10-06T16:16:10.000Z",
+    "title": "Example: Warzone",
+    "priority": true,
+    "summary": "GameStop and third-party resellers have pushed used PS5 Pro prices as high as $1,400, a $500 markup over Sony's price."
+  },
+  {
+    "url": "https://www.instagram.com/p/DeIm3VkGz5g/",
+    "shortcode": "DeIm3VkGz5g",
+    "outlet": "GameRant",
+    "handle": "gamerantofficial",
+    "likes": 3732,
+    "comments": 185,
+    "type": "Image",
+    "posted": "2026-10-06T01:30:13.000Z",
+    "title": "Example: Black Ops 7",
+    "priority": false,
+    "summary": "Nintendo leads 2026 in first-party Metacritic averages at 80.33, ahead of Xbox and PlayStation."
+  },
+  {
+    "url": "https://www.instagram.com/p/DeIXhzHF81k/",
+    "shortcode": "DeIXhzHF81k",
+    "outlet": "IGN",
+    "handle": "igndotcom",
+    "likes": 11583,
+    "comments": 612,
+    "type": "Image",
+    "posted": "2026-10-05T23:16:08.000Z",
+    "title": "Example: Modern Warfare 4",
+    "priority": true,
+    "summary": "SNL's Weekend Update ran a sketch pitting GTA 6 against the Zelda: Ocarina of Time remake, starring Jason Duval and Link."
+  },
+  {
+    "url": "https://www.instagram.com/p/DeHpWDFAo4c/",
+    "shortcode": "DeHpWDFAo4c",
+    "outlet": "Polygon",
+    "handle": "polygondotcom",
+    "likes": 8473,
+    "comments": 22,
+    "type": "Video",
+    "posted": "2026-10-05T19:30:05.000Z",
+    "title": "Example: Call of Duty",
+    "priority": false,
+    "summary": "Dropout's Sam Reich and Jacob Wysocki explain why Game Changer had to go to Topeka, Kansas."
+  }
+]

@@ -1,0 +1,27 @@
+{
+  "generated": "2026-10-06T18:04:44.811940+00:00",
+  "posts_checked_24h": 72,
+  "active_accounts": [
+    "boardroom",
+    "culturecrave",
+    "dexerto",
+    "gameinformermagazine",
+    "gamerantofficial",
+    "gamespot",
+    "igndotcom",
+    "insidergaming_ig",
+    "kotakudotcom",
+    "pcgamer_mag",
+    "polygondotcom",
+    "screenrant"
+  ],
+  "quiet_accounts": [
+    "destructoid_official",
+    "dkdynamite1",
+    "playday.one",
+    "therealgamingtrend",
+    "venturebeat",
+    "windowscentral"
+  ],
+  "demo": true
+}
