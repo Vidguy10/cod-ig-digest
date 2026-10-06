@@ -41,7 +41,7 @@ def card(p):
     badge_cls = "badge pri" if pri else "badge"
     return f"""
 <article class="post{' is-pri' if pri else ''}" data-priority="{1 if pri else 0}">
-  <div class="embed"><iframe src="https://www.instagram.com/p/{code}/embed/" loading="lazy" scrolling="no" allowtransparency="true" title="Instagram post by @{esc(p['handle'])}"></iframe></div>
+  <div class="embed"><a class="fallback" href="{esc(p['url'])}" target="_blank" rel="noopener"><span>Preview not showing?<br>Your browser or an ad blocker may be blocking Instagram previews.<br><b>View on Instagram</b></span></a><iframe src="https://www.instagram.com/p/{code}/embed/" loading="lazy" scrolling="no" allowtransparency="true" title="Instagram post by @{esc(p['handle'])}"></iframe></div>
   <div class="body">
     <div class="who"><span class="outlet">{esc(p['outlet'])}</span> <span class="handle">@{esc(p['handle'])}</span></div>
     <div><span class="{badge_cls}">{esc(p.get('title') or 'Call of Duty')}</span>{' <span class="badge spon">Sponsored</span>' if p.get('sponsored') else ''}</div>
@@ -132,7 +132,10 @@ body.only-pri .post:not(.is-pri){{display:none}}
 body.only-pri .day[data-pri="0"] .empty{{display:block}}
 .post{{display:grid;grid-template-columns:330px 1fr;gap:18px;background:var(--card);border:1px solid var(--line);border-radius:10px;padding:14px;margin:12px 0}}
 .post.is-pri{{border-left:4px solid var(--pri)}}
-.embed iframe{{width:100%;max-width:330px;height:420px;border:0;border-radius:6px;background:var(--bg);display:block}}
+.embed{{position:relative;max-width:330px;height:420px;border-radius:6px;background:var(--bg)}}
+.embed iframe{{position:relative;z-index:1;width:100%;height:420px;border:0;border-radius:6px;background:transparent;display:block}}
+.embed .fallback{{position:absolute;inset:0;z-index:0;display:flex;align-items:center;justify-content:center;text-align:center;padding:24px;color:var(--mut);font-size:13px;line-height:1.6;text-decoration:none;border:1px dashed var(--line);border-radius:6px}}
+.embed .fallback b{{color:var(--acc)}}
 .who .outlet{{font-weight:650;font-size:16px}} .who .handle{{color:var(--mut)}}
 .badge{{display:inline-block;font-size:12px;padding:2px 8px;border-radius:4px;background:var(--bg);border:1px solid var(--line);margin:6px 0 2px}}
 .badge.spon{{background:transparent;border-style:dashed;color:var(--mut);margin-left:4px}}
@@ -142,7 +145,7 @@ body.only-pri .day[data-pri="0"] .empty{{display:block}}
 .view{{display:inline-block;margin-top:10px;color:var(--acc);font-weight:600;text-decoration:none}}
 .view:hover{{text-decoration:underline}}
 footer{{margin-top:40px;color:var(--mut);font-size:13px;border-top:1px solid var(--line);padding-top:12px}}
-@media (max-width:640px){{.post{{grid-template-columns:1fr}} .embed iframe{{max-width:100%}}}}
+@media (max-width:640px){{.post{{grid-template-columns:1fr}} .embed{{max-width:100%}}}}
 </style>
 </head>
 <body>
