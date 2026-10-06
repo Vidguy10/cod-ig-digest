@@ -34,4 +34,12 @@ jobs:
           git config user.email "actions@users.noreply.github.com"
           git add -A
           git commit -m "Digest update $(date -u +%Y-%m-%d)" || echo "No changes"
-          git push
+          # If the repo moved on while this ran, rebuild on top of the latest files and retry.
+          if ! git push; then
+            git fetch origin main
+            git reset --hard origin/main
+            python update.py
+            git add -A
+            git commit -m "Digest update $(date -u +%Y-%m-%d)" || echo "No changes"
+            git push
+          fi
