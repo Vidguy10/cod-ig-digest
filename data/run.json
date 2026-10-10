@@ -1,6 +1,6 @@
 {
-  "generated": "2026-10-10T12:00:37.476193+00:00",
-  "posts_checked_24h": 94,
+  "generated": "2026-10-10T17:21:44.592117+00:00",
+  "posts_checked_24h": 61,
   "active_accounts": [
     "boardroom",
     "brgaming",
@@ -14,8 +14,7 @@
     "kotakudotcom",
     "pcgamer_mag",
     "polygondotcom",
-    "screenrant",
-    "therealgamingtrend"
+    "screenrant"
   ],
   "quiet_accounts": [
     "destructoid_official",
@@ -23,6 +22,6 @@
     "venturebeat",
     "windowscentral"
   ],
-  "new_posts": 2,
+  "new_posts": 0,
   "demo": false
 }
