@@ -1,13 +1,16 @@
 {
-  "generated": "2026-10-11T17:41:49.604001+00:00",
-  "posts_checked_24h": 31,
+  "generated": "2026-10-12T11:59:52.406115+00:00",
+  "posts_checked_24h": 50,
   "active_accounts": [
     "boardroom",
+    "brgaming",
     "culturecrave",
     "dexerto",
+    "funko",
+    "gameinformermagazine",
     "gamerantofficial",
+    "gamespot",
     "igndotcom",
-    "insidergaming_ig",
     "pcgamer_mag",
     "polygondotcom",
     "screenrant"
@@ -15,7 +18,10 @@
   "quiet_accounts": [
     "aarontheloco",
     "destructoid_official",
+    "dkdynamite1",
+    "kotakudotcom",
     "playday.one",
+    "therealgamingtrend",
     "venturebeat",
     "windowscentral"
   ],
