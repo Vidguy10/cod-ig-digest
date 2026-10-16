@@ -1,6 +1,6 @@
 {
-  "generated": "2026-10-16T12:00:38.022450+00:00",
-  "posts_checked_24h": 107,
+  "generated": "2026-10-16T16:41:55.211511+00:00",
+  "posts_checked_24h": 67,
   "active_accounts": [
     "boardroom",
     "brgaming",
@@ -9,14 +9,12 @@
     "gameinformermagazine",
     "gamerantofficial",
     "gamespot",
-    "houseofhighlights",
     "igndotcom",
     "insidergaming_ig",
     "kotakudotcom",
     "pcgamer_mag",
     "polygondotcom",
-    "screenrant",
-    "therealgamingtrend"
+    "screenrant"
   ],
   "quiet_accounts": [
     "aarontheloco",
@@ -26,6 +24,6 @@
     "venturebeat",
     "windowscentral"
   ],
-  "new_posts": 1,
+  "new_posts": 0,
   "demo": false
 }
