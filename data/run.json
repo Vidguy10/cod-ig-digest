@@ -1,16 +1,13 @@
 {
-  "generated": "2026-10-18T15:54:13.108681+00:00",
-  "posts_checked_24h": 33,
+  "generated": "2026-10-19T12:00:34.355786+00:00",
+  "posts_checked_24h": 36,
   "active_accounts": [
-    "aarontheloco",
     "boardroom",
-    "brgaming",
-    "culturecrave",
     "dexerto",
+    "gameinformermagazine",
     "gamerantofficial",
     "gamespot",
-    "humblebundle",
-    "kotakudotcom",
+    "igndotcom",
     "pcgamer_mag",
     "screenrant"
   ],
@@ -19,9 +16,11 @@
     "dkdynamite1",
     "insidergaming_ig",
     "playday.one",
+    "polygondotcom",
+    "therealgamingtrend",
     "venturebeat",
     "windowscentral"
   ],
-  "new_posts": 0,
+  "new_posts": 1,
   "demo": false
 }
