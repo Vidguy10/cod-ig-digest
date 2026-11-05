@@ -1,11 +1,34 @@
 {
-  "generated": "2026-11-04T19:47:54.514523+00:00",
-  "posts_checked_24h": 0,
-  "active_accounts": [],
+  "generated": "2026-11-05T13:01:33.167082+00:00",
+  "posts_checked_24h": 103,
+  "active_accounts": [
+    "aarontheloco",
+    "boardroom",
+    "br_cfb",
+    "brgaming",
+    "brkicks",
+    "caa_sports",
+    "dexerto",
+    "gameinformermagazine",
+    "gamerantofficial",
+    "gamespot",
+    "igndeals",
+    "igndotcom",
+    "insidergaming_ig",
+    "kotakudotcom",
+    "pcgamer_mag",
+    "polygondotcom",
+    "screenrant",
+    "therealgamingtrend",
+    "weirdbeard_minis",
+    "windowscentral"
+  ],
   "quiet_accounts": [
     "destructoid_official",
+    "dkdynamite1",
+    "playday.one",
     "venturebeat"
   ],
-  "new_posts": 0,
+  "new_posts": 2,
   "demo": false
 }
