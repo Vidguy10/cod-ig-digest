@@ -1,11 +1,39 @@
 [
   {
+    "url": "https://www.instagram.com/p/DfYZ5xMlymp/",
+    "shortcode": "DfYZ5xMlymp",
+    "outlet": "IGN",
+    "handle": "igndotcom",
+    "likes": 37694,
+    "comments": 549,
+    "type": "Image",
+    "posted": "2026-11-06T01:16:07.000Z",
+    "title": "Call of Duty",
+    "priority": false,
+    "summary": "Barry Sloane, the voice and face model for Captain Price in the Modern Warfare games, is hinting that he wants to be in the Call of Duty movie, saying, \"I don't think there's anyone else on the planet who is as...",
+    "sponsored": false
+  },
+  {
+    "url": "https://www.instagram.com/p/DfX7IQ9I2rc/",
+    "shortcode": "DfX7IQ9I2rc",
+    "outlet": "Aaron Turner",
+    "handle": "aarontheloco",
+    "likes": 328,
+    "comments": 12,
+    "type": "Video",
+    "posted": "2026-11-05T20:50:05.000Z",
+    "title": "Modern Warfare 4 · DMZ",
+    "priority": true,
+    "summary": "Stole my radar truck in DMZ? I don't think so 😂🦸 Did he deserve it? 👇 #mw4dmz #dmz #callofduty #modernwarfare4 #gamingreels codclips funnymoments",
+    "sponsored": false
+  },
+  {
     "url": "https://www.instagram.com/p/DfWzOfAoY0K/",
     "shortcode": "DfWzOfAoY0K",
     "outlet": "Aaron Turner",
     "handle": "aarontheloco",
-    "likes": 92,
-    "comments": 3,
+    "likes": 338,
+    "comments": 11,
     "type": "Video",
     "posted": "2026-11-05T10:20:42.000Z",
     "title": "Modern Warfare 4 · DMZ",
@@ -347,20 +375,6 @@
     "title": "Call of Duty",
     "priority": false,
     "summary": "Bobby Kotick, the former CEO of Activision-Blizzard, has joined the board of directors at Skydance, the parent company of the newly-merged Warner Bros.",
-    "sponsored": false
-  },
-  {
-    "url": "https://www.instagram.com/p/DeLlhUKF-mm/",
-    "shortcode": "DeLlhUKF-mm",
-    "outlet": "IGN",
-    "handle": "igndotcom",
-    "likes": 9617,
-    "comments": 284,
-    "type": "Image",
-    "posted": "2026-10-07T05:16:08.000Z",
-    "title": "Call of Duty",
-    "priority": false,
-    "summary": "Halo concept artist Sam Wood shared a look at a new alien species that was in development at Halo Studios ahead of the decision to move the franchise over to Activision.",
     "sponsored": false
   }
 ]
