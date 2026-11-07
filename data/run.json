@@ -1,8 +1,7 @@
 {
-  "generated": "2026-11-07T13:01:25.501871+00:00",
-  "posts_checked_24h": 96,
+  "generated": "2026-11-07T17:45:04.370847+00:00",
+  "posts_checked_24h": 58,
   "active_accounts": [
-    "aarontheloco",
     "boardroom",
     "brgaming",
     "culturecrave",
@@ -15,10 +14,7 @@
     "kotakudotcom",
     "pcgamer_mag",
     "polygondotcom",
-    "screenrant",
-    "therealgamingtrend",
-    "weirdbeard_minis",
-    "windowscentral"
+    "screenrant"
   ],
   "quiet_accounts": [
     "destructoid_official",
@@ -26,6 +22,6 @@
     "playday.one",
     "venturebeat"
   ],
-  "new_posts": 2,
+  "new_posts": 0,
   "demo": false
 }
