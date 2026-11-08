@@ -1,11 +1,25 @@
 [
   {
+    "url": "https://www.instagram.com/p/DfcyCHVO_h2/",
+    "shortcode": "DfcyCHVO_h2",
+    "outlet": "Bleacher Report Gaming",
+    "handle": "brgaming",
+    "likes": -1,
+    "comments": 8,
+    "type": "Video",
+    "posted": "2026-11-07T18:04:19.000Z",
+    "title": "Modern Warfare 4",
+    "priority": true,
+    "summary": "Might be time to retire 💀 (silenttapess/TT) #gaming #callofduty #mw4",
+    "sponsored": false
+  },
+  {
     "url": "https://www.instagram.com/p/DfaXfcAOnYb/",
     "shortcode": "DfaXfcAOnYb",
     "outlet": "Bleacher Report Gaming",
     "handle": "brgaming",
-    "likes": 9810,
-    "comments": 415,
+    "likes": 11808,
+    "comments": 472,
     "type": "Video",
     "posted": "2026-11-06T19:34:26.000Z",
     "title": "Modern Warfare 4 · Warzone",
@@ -18,8 +32,8 @@
     "shortcode": "DfaCCp9oSii",
     "outlet": "Aaron Turner",
     "handle": "aarontheloco",
-    "likes": 5212,
-    "comments": 89,
+    "likes": 6124,
+    "comments": 98,
     "type": "Video",
     "posted": "2026-11-06T16:27:35.000Z",
     "title": "Modern Warfare 4 · DMZ",
@@ -333,20 +347,6 @@
     "title": "Call of Duty",
     "priority": false,
     "summary": "God help us, Bobby Kotick's back 😶 #activision #warnerbros #filmindustry #news #pcgaming #pcgamer",
-    "sponsored": false
-  },
-  {
-    "url": "https://www.instagram.com/p/DeRL8_1oLc-/",
-    "shortcode": "DeRL8_1oLc-",
-    "outlet": "Aaron Turner",
-    "handle": "aarontheloco",
-    "likes": 62,
-    "comments": 3,
-    "type": "Video",
-    "posted": "2026-10-09T09:29:50.000Z",
-    "title": "Modern Warfare 4 · DMZ",
-    "priority": true,
-    "summary": "MW4 DMZ's new skill tree explained 👀 Every operator gets 3 trait trees (Warfighter, Scout and Survivalist) and unlocks a new trait every Dog Tag level.",
     "sponsored": false
   }
 ]

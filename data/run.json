@@ -1,6 +1,6 @@
 {
-  "generated": "2026-11-07T17:45:04.370847+00:00",
-  "posts_checked_24h": 58,
+  "generated": "2026-11-08T13:00:39.435563+00:00",
+  "posts_checked_24h": 35,
   "active_accounts": [
     "boardroom",
     "brgaming",
@@ -8,9 +8,6 @@
     "dexerto",
     "gameinformermagazine",
     "gamerantofficial",
-    "gamespot",
-    "houseofhighlights",
-    "igndotcom",
     "kotakudotcom",
     "pcgamer_mag",
     "polygondotcom",
@@ -19,9 +16,10 @@
   "quiet_accounts": [
     "destructoid_official",
     "dkdynamite1",
+    "insidergaming_ig",
     "playday.one",
     "venturebeat"
   ],
-  "new_posts": 0,
+  "new_posts": 1,
   "demo": false
 }
