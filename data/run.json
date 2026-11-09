@@ -1,18 +1,12 @@
 {
-  "generated": "2026-11-09T13:00:23.555003+00:00",
-  "posts_checked_24h": 42,
+  "generated": "2026-11-09T22:24:09.337232+00:00",
+  "posts_checked_24h": 19,
   "active_accounts": [
-    "aarontheloco",
     "boardroom",
     "dexerto",
-    "gameinformermagazine",
     "gamerantofficial",
-    "gamespot",
-    "igndotcom",
     "insidergaming_ig",
     "pcgamer_mag",
-    "polygondotcom",
-    "polymarket",
     "screenrant"
   ],
   "quiet_accounts": [
@@ -23,6 +17,6 @@
     "venturebeat",
     "windowscentral"
   ],
-  "new_posts": 2,
+  "new_posts": 0,
   "demo": false
 }
