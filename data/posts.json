@@ -1,11 +1,39 @@
 [
   {
+    "url": "https://www.instagram.com/p/DffgG7jCvwC/",
+    "shortcode": "DffgG7jCvwC",
+    "outlet": "GameSpot",
+    "handle": "gamespot",
+    "likes": 1312,
+    "comments": 29,
+    "type": "Video",
+    "posted": "2026-11-08T19:26:06.000Z",
+    "title": "Call of Duty",
+    "priority": false,
+    "summary": "15 years since Call of Duty: Modern Warfare 3 first released...",
+    "sponsored": false
+  },
+  {
+    "url": "https://www.instagram.com/p/DffPXLJgMDy/",
+    "shortcode": "DffPXLJgMDy",
+    "outlet": "Aaron Turner",
+    "handle": "aarontheloco",
+    "likes": 345,
+    "comments": 4,
+    "type": "Image",
+    "posted": "2026-11-08T16:58:43.000Z",
+    "title": "Modern Warfare 4 · DMZ",
+    "priority": true,
+    "summary": "Big ups @callofduty for sending the MW4 care package my way.Grinding DMZ every day with the Loco Community, and this one means a lot.",
+    "sponsored": false
+  },
+  {
     "url": "https://www.instagram.com/p/DfcyCHVO_h2/",
     "shortcode": "DfcyCHVO_h2",
     "outlet": "Bleacher Report Gaming",
     "handle": "brgaming",
     "likes": -1,
-    "comments": 8,
+    "comments": 10,
     "type": "Video",
     "posted": "2026-11-07T18:04:19.000Z",
     "title": "Modern Warfare 4",
@@ -320,19 +348,5 @@
     "priority": true,
     "summary": "AD Tactics sorted ⚽👀 See how #TeamFootball prepped to take on #TeamBoxing 🥊🎮 @Mickyvdven @sara_guzo @CallofDuty #MW4",
     "sponsored": true
-  },
-  {
-    "url": "https://www.instagram.com/p/DeS6z2blbtm/",
-    "shortcode": "DeS6z2blbtm",
-    "outlet": "Dimitri",
-    "handle": "dkdynamite1",
-    "likes": 122,
-    "comments": 6,
-    "type": "Sidecar",
-    "posted": "2026-10-10T01:36:44.000Z",
-    "title": "Modern Warfare 4",
-    "priority": true,
-    "summary": "Special thanks to @monstergaming for the surprise I found on my doorstep today… 🔥 The cleanest hat + controller combo of all time!",
-    "sponsored": false
   }
 ]
