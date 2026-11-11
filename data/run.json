@@ -1,9 +1,8 @@
 {
-  "generated": "2026-11-11T13:00:40.928473+00:00",
-  "posts_checked_24h": 106,
+  "generated": "2026-11-11T19:37:57.255893+00:00",
+  "posts_checked_24h": 53,
   "active_accounts": [
     "aarontheloco",
-    "bleacherreport",
     "boardroom",
     "brgaming",
     "brkicks",
@@ -14,9 +13,7 @@
     "gamespot",
     "igndotcom",
     "insidergaming_ig",
-    "kotakudotcom",
     "pcgamer_mag",
-    "polygondotcom",
     "screenrant"
   ],
   "quiet_accounts": [
@@ -26,6 +23,6 @@
     "therealgamingtrend",
     "venturebeat"
   ],
-  "new_posts": 3,
+  "new_posts": 0,
   "demo": false
 }
