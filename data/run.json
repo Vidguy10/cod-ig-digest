@@ -1,19 +1,19 @@
 {
-  "generated": "2026-11-11T19:37:57.255893+00:00",
-  "posts_checked_24h": 53,
+  "generated": "2026-11-12T13:01:24.723271+00:00",
+  "posts_checked_24h": 80,
   "active_accounts": [
-    "aarontheloco",
     "boardroom",
     "brgaming",
-    "brkicks",
     "culturecrave",
     "dexerto",
     "gameinformermagazine",
     "gamerantofficial",
-    "gamespot",
+    "houseofhighlights",
+    "igndeals",
     "igndotcom",
     "insidergaming_ig",
     "pcgamer_mag",
+    "polygondotcom",
     "screenrant"
   ],
   "quiet_accounts": [
@@ -21,7 +21,8 @@
     "dkdynamite1",
     "playday.one",
     "therealgamingtrend",
-    "venturebeat"
+    "venturebeat",
+    "windowscentral"
   ],
   "new_posts": 0,
   "demo": false
