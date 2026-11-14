@@ -1,7 +1,8 @@
 {
-  "generated": "2026-11-13T19:44:45.433846+00:00",
-  "posts_checked_24h": 46,
+  "generated": "2026-11-14T13:00:45.294705+00:00",
+  "posts_checked_24h": 83,
   "active_accounts": [
+    "bleacherreport",
     "boardroom",
     "brgaming",
     "culturecrave",
@@ -11,10 +12,11 @@
     "gamespot",
     "houseofhighlights",
     "igndotcom",
-    "insidergaming_ig",
     "pcgamer_mag",
     "polygondotcom",
-    "screenrant"
+    "screenrant",
+    "therealgamingtrend",
+    "windowscentral"
   ],
   "quiet_accounts": [
     "aarontheloco",
@@ -22,10 +24,8 @@
     "dkdynamite1",
     "kotakudotcom",
     "playday.one",
-    "therealgamingtrend",
-    "venturebeat",
-    "windowscentral"
+    "venturebeat"
   ],
-  "new_posts": 0,
+  "new_posts": 1,
   "demo": false
 }
