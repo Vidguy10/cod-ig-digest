@@ -1,12 +1,13 @@
 {
-  "generated": "2026-11-19T20:40:15.968159+00:00",
-  "posts_checked_24h": 67,
+  "generated": "2026-11-20T13:00:34.292987+00:00",
+  "posts_checked_24h": 153,
   "active_accounts": [
-    "bleacherreport",
     "boardroom",
+    "br_betting",
+    "br_cfb",
+    "brfootball",
     "brgaming",
     "brkicks",
-    "brwalkoff",
     "culturecrave",
     "dexerto",
     "gameinformermagazine",
@@ -14,17 +15,19 @@
     "gamespot",
     "houseofhighlights",
     "igndotcom",
+    "insidergaming_ig",
+    "itsvanaken",
     "kotakudotcom",
     "pcgamer_mag",
     "polygondotcom",
-    "screenrant",
-    "tntsportsus"
+    "screenrant"
   ],
   "quiet_accounts": [
+    "aarontheloco",
     "dkdynamite1",
     "playday.one",
     "venturebeat"
   ],
-  "new_posts": 0,
+  "new_posts": 2,
   "demo": false
 }
